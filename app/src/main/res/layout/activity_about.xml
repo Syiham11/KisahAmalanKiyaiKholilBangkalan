@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:background="#b2dfdb"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+   
+    <TextView android:textSize="@dimen/_26sdp"
+        android:textStyle="bold"
+        android:textColor="#ff5722"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:textAlignment="center"
+        android:text="KISAH DAN AMALAN HASYIM AS'ARI"/>
+
+    <TextView
+        android:textColor="#ff5722"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:text="Versi 1.0"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="182dp"
+        android:background="@drawable/logo"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:layout_marginTop="@dimen/_20sdp"
+        android:textColor="#ff5722"
+        android:paddingLeft="@dimen/_25sdp"
+        android:paddingRight="@dimen/_25sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_8sdp"
+        android:text="Resource :\nhttp://bio.or.id/biografi-kh-hasyim-al-asyari-pendiri-nahdlatul-ulama-nu/
+http://muhammadmawhiburrahman.blogspot.com/2013/07/karomah-kh-hasyim-asyari-jombang-sang.html
+"
+        android:textAlignment="center" />
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="#ff5722"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Developer  :"
+        android:textAlignment="center"/>
+
+    <TextView android:textColor="#ff5722"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sahabat Developer\nrahmatullahalan@gmail.com"
+        android:textAlignment="center" />
+</LinearLayout>
